@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumil Chaurasia | Cyber Security, AWS Cloud & Data Engineer</title>
+    <meta name="description" content="Portfolio of Soumil Chaurasia — Cyber Security & Digital Forensics Specialist, AWS Certified Solutions Architect, and Data Analytics Practitioner at VIT Bhopal.">
+    <meta name="keywords" content="Soumil Chaurasia, Cyber Security, Digital Forensics, AWS Certified Solutions Architect, Python, PacketX, VulnGuard, Power BI, VIT Bhopal">
+    <meta name="author" content="Soumil Chaurasia">
+
+    <!-- Open Graph / Social Meta -->
+    <meta property="og:title" content="Soumil Chaurasia | Portfolio">
+    <meta property="og:description" content="Cyber Security & Cloud Engineer. View projects like PacketX, VulnGuard, and E-Commerce Analytics Suite.">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Matrix Rain Canvas Overlay -->
+    <canvas id="matrix-canvas"></canvas>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-accent">&lt;</span>Soumil<span class="logo-highlight">.C</span><span class="logo-accent"> /&gt;</span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link"><i class="fa-solid fa-user-ninja"></i> About</a>
+                <a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a>
+                <a href="#projects" class="nav-link"><i class="fa-solid fa-folder-open"></i> Projects</a>
+                <a href="#certifications" class="nav-link"><i class="fa-solid fa-certificate"></i> Certifications</a>
+                <a href="#contact" class="nav-link"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle-btn" id="theme-toggle-btn" title="Toggle Light/Dark Theme">
+                    <i class="fa-solid fa-moon" id="theme-icon"></i>
+                </button>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-bg-glow"></div>
+            <div class="container hero-container hero-container-single">
+                <div class="hero-content">
+                    <div class="status-badge">
+                        <span class="status-dot"></span>
+                        <span>Open for Cyber Security, Cloud & Tech Roles</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="name-gradient">Soumil Chaurasia</span>
+                    </h1>
+
+                    <div class="hero-subtitle-wrapper">
+                        <span class="prompt-prefix">root@soumil:~#</span>
+                        <span id="typed-text" class="typed-text"></span>
+                        <span class="cursor">&nbsp;</span>
+                    </div>
+
+                    <p class="hero-description">
+                        B.Tech CSE student specializing in <strong>Cyber Security & Digital Forensics</strong> at VIT Bhopal. 
+                        <strong>AWS Certified Solutions Architect</strong> passionate about building secure network analyzers, web vulnerability scanners, and scalable cloud & data analytics platforms.
+                    </p>
+
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fa-solid fa-rocket"></i> View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fa-solid fa-envelope"></i> Get In Touch
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/SoumilChaurasia09" target="_blank" rel="noopener noreferrer" title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/soumil-chaurasia" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:soumilchaurasia30@gmail.com" title="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Counter Stats -->
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-shield-cat"></i></div>
+                        <div class="stat-info">
+                            <h3 class="stat-number">3+</h3>
+                            <p class="stat-label">Full-Stack Security & Analytics Projects</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-brands fa-aws"></i></div>
+                        <div class="stat-info">
+                            <h3 class="stat-number">AWS</h3>
+                            <p class="stat-label">Solutions Architect Associate Certified</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <div class="stat-info">
+                            <h3 class="stat-number">15+</h3>
+                            <p class="stat-label">Security & Cloud Tools Mastered</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">// GET TO KNOW ME</span>
+                    <h2 class="section-title">About Soumil Chaurasia</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card main-bio">
+                        <h3><i class="fa-solid fa-user-gear"></i> Bio & Background</h3>
+                        <p>
+                            I am a Computer Science Engineering undergraduate (2023–2027) at <strong>Vellore Institute of Technology (VIT Bhopal)</strong> with a strong specialization in <strong>Cyber Security and Digital Forensics</strong>. 
+                        </p>
+                        <p>
+                            My technical toolkit bridges the gap between deep network packet inspection, web application security auditing (OWASP Top 10), and cloud infrastructure architecture on <strong>AWS</strong>. I also enjoy leveraging data science frameworks (Power BI, DAX, Scikit-Learn) to derive high-value business intelligence.
+                        </p>
+
+                        <div class="bio-highlights">
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Network Packet Sniffing & Protocol Analysis (Scapy, Wireshark)</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Vulnerability Scanning & Penetration Testing Fundamentals (Metasploit, Nmap, Burp Suite)</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>AWS Cloud Architecture (EC2, S3, Lambda, VPC)</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Data Modeling, Star Schema & Executive Analytics (Power BI, DAX, Python)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-card education-card">
+                        <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2023 – 2027</span>
+                                <h4>Bachelor of Technology (B.Tech)</h4>
+                                <h5>Computer Science & Engineering</h5>
+                                <p class="uni-name"><i class="fa-solid fa-university"></i> Vellore Institute of Technology, Bhopal</p>
+                                <p class="specialization"><strong>Specialization:</strong> Cyber Security & Digital Forensics</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">// MY TECH STACK</span>
+                    <h2 class="section-title">Technical Expertise</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Security Tools -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon sec-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                            <h3>Cyber Security & Forensics</h3>
+                        </div>
+                        <div class="skill-pills">
+                            <span class="skill-pill"><i class="fa-solid fa-network-wired"></i> Wireshark</span>
+                            <span class="skill-pill"><i class="fa-solid fa-radar"></i> Nmap</span>
+                            <span class="skill-pill"><i class="fa-solid fa-bug"></i> Burp Suite</span>
+                            <span class="skill-pill"><i class="fa-solid fa-skull"></i> Metasploit</span>
+                            <span class="skill-pill"><i class="fa-brands fa-linux"></i> Kali Linux</span>
+                            <span class="skill-pill"><i class="fa-solid fa-desktop"></i> VirtualBox</span>
+                            <span class="skill-pill"><i class="fa-solid fa-shield-virus"></i> Packet Inspection</span>
+                            <span class="skill-pill"><i class="fa-solid fa-list-check"></i> OWASP Top 10</span>
+                        </div>
+                    </div>
+
+                    <!-- Cloud & DevOps -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon cloud-icon"><i class="fa-brands fa-aws"></i></div>
+                            <h3>Cloud & Infrastructure</h3>
+                        </div>
+                        <div class="skill-pills">
+                            <span class="skill-pill"><i class="fa-brands fa-aws"></i> AWS EC2</span>
+                            <span class="skill-pill"><i class="fa-solid fa-database"></i> AWS S3</span>
+                            <span class="skill-pill"><i class="fa-solid fa-bolt"></i> AWS Lambda</span>
+                            <span class="skill-pill"><i class="fa-solid fa-network-wired"></i> AWS VPC</span>
+                            <span class="skill-pill"><i class="fa-brands fa-git-alt"></i> Git</span>
+                            <span class="skill-pill"><i class="fa-brands fa-github"></i> GitHub</span>
+                            <span class="skill-pill"><i class="fa-solid fa-code"></i> VS Code</span>
+                        </div>
+                    </div>
+
+                    <!-- Programming & Web Frameworks -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon code-icon"><i class="fa-solid fa-code"></i></div>
+                            <h3>Languages & Frameworks</h3>
+                        </div>
+                        <div class="skill-pills">
+                            <span class="skill-pill"><i class="fa-brands fa-python"></i> Python</span>
+                            <span class="skill-pill"><i class="fa-solid fa-c"></i> C++</span>
+                            <span class="skill-pill"><i class="fa-solid fa-database"></i> SQL</span>
+                            <span class="skill-pill"><i class="fa-solid fa-pepper-hot"></i> Flask</span>
+                            <span class="skill-pill"><i class="fa-solid fa-spider"></i> Scapy</span>
+                            <span class="skill-pill"><i class="fa-solid fa-scissors"></i> BeautifulSoup</span>
+                            <span class="skill-pill"><i class="fa-solid fa-window-restore"></i> Tkinter</span>
+                            <span class="skill-pill"><i class="fa-solid fa-file-pdf"></i> ReportLab / FPDF</span>
+                        </div>
+                    </div>
+
+                    <!-- Data Analytics & ML -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon data-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                            <h3>Data Analytics & AI/ML</h3>
+                        </div>
+                        <div class="skill-pills">
+                            <span class="skill-pill"><i class="fa-solid fa-chart-column"></i> Power BI</span>
+                            <span class="skill-pill"><i class="fa-solid fa-calculator"></i> DAX</span>
+                            <span class="skill-pill"><i class="fa-solid fa-sitemap"></i> Star Schema</span>
+                            <span class="skill-pill"><i class="fa-solid fa-cubes"></i> Data Modeling</span>
+                            <span class="skill-pill"><i class="fa-solid fa-table"></i> Pandas</span>
+                            <span class="skill-pill"><i class="fa-solid fa-brain"></i> Scikit-Learn</span>
+                            <span class="skill-pill"><i class="fa-solid fa-chart-line"></i> RFM Modeling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">// FEATURED WORK</span>
+                    <h2 class="section-title">Projects Showcase</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="security">Security & Networking</button>
+                    <button class="filter-btn" data-filter="analytics">Data & Analytics</button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: PacketX -->
+                    <div class="project-card" data-category="security">
+                        <div class="project-img-wrapper">
+                            <img src="assets/packetx.png" alt="PacketX Network Packet Analyzer" class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://tinyurl.com/soumil1" target="_blank" rel="noopener noreferrer" class="overlay-btn" title="Visit Live Demo">
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </a>
+                                <button class="overlay-btn open-modal-btn" data-project="packetx" title="View Case Study">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Scapy</span>
+                                <span class="tag">Tkinter</span>
+                                <span class="tag">Pandas</span>
+                            </div>
+                            <h3 class="project-title">PacketX – Network Packet Analyzer & Sniffer</h3>
+                            <p class="project-desc">
+                                Real-time network packet sniffer & traffic analyzer built with Python and Scapy. Features protocol inspection (TCP, UDP, ICMP, ARP), Tkinter GUI visualizer, multi-threaded monitoring, and report exports in PDF, CSV, TXT, and XML.
+                            </p>
+                            <div class="project-links">
+                                <a href="https://tinyurl.com/soumil1" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <i class="fa-solid fa-link"></i> Live Link
+                                </a>
+                                <button class="project-link-btn open-modal-btn" data-project="packetx">
+                                    <i class="fa-solid fa-file-code"></i> Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: VulnGuard -->
+                    <div class="project-card" data-category="security">
+                        <div class="project-img-wrapper">
+                            <img src="assets/vulnguard.png" alt="VulnGuard Web Scanner" class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://tinyurl.com/Soumil2" target="_blank" rel="noopener noreferrer" class="overlay-btn" title="Visit Live Demo">
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </a>
+                                <button class="overlay-btn open-modal-btn" data-project="vulnguard" title="View Case Study">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Flask</span>
+                                <span class="tag">BeautifulSoup</span>
+                                <span class="tag">OWASP Top 10</span>
+                            </div>
+                            <h3 class="project-title">VulnGuard-Web-Scanner – Web Vulnerability Scanner</h3>
+                            <p class="project-desc">
+                                Automated web vulnerability scanner detecting SQL Injection, XSS, CSRF, and security misconfigurations. Features crawler module, multi-threaded scanning, real-time logging, Flask web dashboard & Tkinter desktop GUI.
+                            </p>
+                            <div class="project-links">
+                                <a href="https://tinyurl.com/Soumil2" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <i class="fa-solid fa-link"></i> Live Link
+                                </a>
+                                <button class="project-link-btn open-modal-btn" data-project="vulnguard">
+                                    <i class="fa-solid fa-file-code"></i> Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: E-Commerce Analytics -->
+                    <div class="project-card" data-category="analytics">
+                        <div class="project-img-wrapper">
+                            <img src="assets/analytics.png" alt="E-Commerce & Customer Intelligence Analytics Suite" class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://tinyurl.com/Soumil4" target="_blank" rel="noopener noreferrer" class="overlay-btn" title="Visit Live Demo">
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </a>
+                                <button class="overlay-btn open-modal-btn" data-project="analytics" title="View Case Study">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Power BI</span>
+                                <span class="tag">SQL</span>
+                                <span class="tag">DAX</span>
+                                <span class="tag">RFM Model</span>
+                            </div>
+                            <h3 class="project-title">E-Commerce & Customer Intelligence Analytics Suite</h3>
+                            <p class="project-desc">
+                                Executive Power BI analytics suite on a 5,700+ record Star Schema database. Engineered an RFM behavioral model segmenting 600 customers (isolating $242K+ at-risk revenue) and M0–M12 cohort retention heatmaps.
+                            </p>
+                            <div class="project-links">
+                                <a href="https://tinyurl.com/Soumil4" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <i class="fa-solid fa-link"></i> Live Link
+                                </a>
+                                <button class="project-link-btn open-modal-btn" data-project="analytics">
+                                    <i class="fa-solid fa-file-code"></i> Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications section" id="certifications">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">// CREDENTIALS & ACHIEVEMENTS</span>
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="certs-grid">
+                    <div class="cert-card aws-cert">
+                        <div class="cert-badge-icon"><i class="fa-brands fa-aws"></i></div>
+                        <div class="cert-details">
+                            <h3>AWS Certified Solutions Architect – Associate</h3>
+                            <p class="cert-issuer">Amazon Web Services</p>
+                            <p class="cert-desc">Mastered core AWS cloud infrastructure including EC2 compute, S3 storage, VPC networking, IAM security policies, and Lambda serverless functions.</p>
+                            <span class="cert-tag">Cloud Infrastructure & Security</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card google-cert">
+                        <div class="cert-badge-icon"><i class="fa-brands fa-google"></i></div>
+                        <div class="cert-details">
+                            <h3>Google IT Support Professional Certificate</h3>
+                            <p class="cert-issuer">Google</p>
+                            <p class="cert-desc">Comprehensive mastery of IT support fundamentals, networking protocols, Linux administration, system troubleshooting, and security concepts.</p>
+                            <span class="cert-tag">IT Support & Systems</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card ai-cert">
+                        <div class="cert-badge-icon"><i class="fa-solid fa-brain"></i></div>
+                        <div class="cert-details">
+                            <h3>Artificial Intelligence & Machine Learning</h3>
+                            <p class="cert-issuer">MPOnline</p>
+                            <p class="cert-desc">Foundational AI/ML algorithms, practical data modeling techniques, supervised/unsupervised learning, and predictive analytics.</p>
+                            <span class="cert-tag">Artificial Intelligence</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card mkt-cert">
+                        <div class="cert-badge-icon"><i class="fa-solid fa-bullhorn"></i></div>
+                        <div class="cert-details">
+                            <h3>Digital Marketing Certification</h3>
+                            <p class="cert-issuer">MPOnline</p>
+                            <p class="cert-desc">Digital marketing fundamentals, search analytics, online growth metrics, and customer acquisition channels.</p>
+                            <span class="cert-tag">Digital Analytics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">// CONNECT WITH ME</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-card">
+                        <h3>Let's Collaborate!</h3>
+                        <p>
+                            Whether you have an opportunity in Cyber Security, AWS Cloud, Software Engineering, or Data Analytics — or simply want to connect — feel free to drop me a message!
+                        </p>
+
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="c-text">
+                                    <label>Email</label>
+                                    <a href="mailto:soumilchaurasia30@gmail.com">soumilchaurasia30@gmail.com</a>
+                                </div>
+                                <button class="copy-btn" id="copy-email-btn" title="Copy Email to Clipboard">
+                                    <i class="fa-regular fa-copy"></i>
+                                </button>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="c-icon"><i class="fa-brands fa-linkedin"></i></div>
+                                <div class="c-text">
+                                    <label>LinkedIn</label>
+                                    <a href="https://linkedin.com/in/soumil-chaurasia" target="_blank" rel="noopener noreferrer">linkedin.com/in/soumil-chaurasia</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="c-icon"><i class="fa-brands fa-github"></i></div>
+                                <div class="c-text">
+                                    <label>GitHub</label>
+                                    <a href="https://github.com/SoumilChaurasia09" target="_blank" rel="noopener noreferrer">github.com/SoumilChaurasia09</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-card">
+                        <form id="contact-form" onsubmit="handleFormSubmit(event)">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" required placeholder="John Doe">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" required placeholder="john@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" required placeholder="Role Opportunity / Collaboration">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="4" required placeholder="Hi Soumil, I would like to discuss..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Details Modal -->
+    <div class="project-modal" id="project-modal">
+        <div class="project-modal-content">
+            <button class="close-modal-btn" id="close-project-modal">&times;</button>
+            <div id="project-modal-body">
+                <!-- Injected via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <p>&copy; 2026 <strong>Soumil Chaurasia</strong>. Built for GitHub Pages.</p>
+            </div>
+            <div class="footer-center">
+                <span class="online-indicator"></span>
+                <span>System Online • All Systems Secure</span>
+            </div>
+            <div class="footer-right">
+                <a href="#hero" class="back-to-top" title="Back to Top"><i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="app.js"></script>
+</body>
+</html>
