@@ -1,8 +1,11 @@
-# Soumil Chaurasia - GitHub Pages Portfolio & Personal Homepage
+# Soumil Chaurasia - Portfolio & Personal Homepage
 
 A high-performance, dark-themed developer portfolio and personal website designed for **Soumil Chaurasia** (B.Tech CSE Cyber Security & Digital Forensics @ VIT Bhopal, AWS Certified Solutions Architect).
 
 Built with zero external framework dependencies (HTML5, CSS3, JavaScript) for instant hosting on **GitHub Pages**.
+
+- 🔗 **GitHub Repository**: [https://github.com/SoumilChaurasia09/portfolio](https://github.com/SoumilChaurasia09/portfolio)
+- 🌐 **Live Website**: [https://SoumilChaurasia09.github.io/portfolio/](https://SoumilChaurasia09.github.io/portfolio/)
 
 ---
 
@@ -16,29 +19,6 @@ Built with zero external framework dependencies (HTML5, CSS3, JavaScript) for in
   - **E-Commerce Analytics Suite**: Customer Intelligence & Retention Heatmap (`Power BI`, `DAX`, `SQL`)
 - **Responsive Layout**: Designed for mobile, tablet, and ultra-wide displays.
 - **Dark / Light Mode Toggle**: Instant theme switching with local storage memory.
-
----
-
-## 🚀 How to Publish to GitHub Pages
-
-### Direct GitHub Repository Setup (Recommended)
-
-1. Create a new public repository on GitHub named:
-   - `SoumilChaurasia09.github.io` (for user homepage) OR any repository name like `portfolio`.
-2. Initialize git and commit files in this folder:
-   ```bash
-   git init
-   git add .
-   git commit -m "Update portfolio for Soumil Chaurasia"
-   git branch -M main
-   git remote add origin https://github.com/SoumilChaurasia09/SoumilChaurasia09.github.io.git
-   git push -u origin main
-   ```
-3. Enable GitHub Pages:
-   - Go to your GitHub repository -> **Settings** -> **Pages**.
-   - Under **Build and deployment** -> **Source**, choose **GitHub Actions** (or `Deploy from a branch` selecting `main` branch / `/root`).
-4. Your site will automatically go live at:
-   `https://SoumilChaurasia09.github.io/`
 
 ---
 
